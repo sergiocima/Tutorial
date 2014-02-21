@@ -5,7 +5,7 @@
 Dataset usati: [0300 disastri.json][1]
 
 ## Modi per caricare i dati
-![enter image description here][2]
+![enter image description here][2] 
 E' possibile creare un progetto caricando i dati dal computer, dal web, dagli appunti copiati con ctrl+c, o da un google doc previo accesso al proprio account. E' anche possibile importare lo zip di un progetto Google refine
 
 ## Caricare un json
