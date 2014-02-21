@@ -39,8 +39,6 @@ GRefine carica il documento e presenta una anteprima. Vengono indicate le righe 
 Altre guide qui:
 - https://sakai.unc.edu/access/content/group/b45a6f34-de04-4e63-8bb5-131c910306b5/Cleaning%20Data/Cleaning%20Data%20With%20Refine
 
-Dataset: 0100 contractors fp7 W.xls
-
 
   [1]: dataset_workshop/0300_disastri.json
   [2]: dataset_workshop/0100_contractors_fp7_W.xlsx
