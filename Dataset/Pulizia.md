@@ -2,10 +2,12 @@
 
 # Caricamento dati
 > Impari a creare un progetto in Google Refine e Open Refine
-Dataset usati: [0300 disastri.json][1]
+Dataset usati:
+- [0300_disastri.json][1]
+- [0100_contractors_fp7_W.xls][2]
 
 ## Modi per caricare i dati
-![enter image description here][2] 
+![enter image description here][3] 
 
 E' possibile creare un progetto caricando i dati dal computer, dal web, dagli appunti copiati con ctrl+c, o da un google doc previo accesso al proprio account. E' anche possibile importare lo zip di un progetto Google refine
 
@@ -39,9 +41,9 @@ Altre guide qui:
 Dataset: 0100 contractors fp7 W.xls
 
 
-  [1]: https://www.dropbox.com/s/ovq6pqtn8hup00i/0300%20disastri.json
-  [2]: https://www.dropbox.com/s/28uqkw42n55zv3c/media_1355734512098.png
-  [3]: https://www.dropbox.com/s/wphjij1kttsuxp1/IMG_0217.JPG
+  [1]: dataset_workshop/0300_disastri.json
+  [2]: dataset_workshop/0100_contractors_fp7_W.xlsx
+  [3]: https://www.dropbox.com/s/28uqkw42n55zv3c/media_1355734512098.png
   [4]: images/Caricamento_dati/Screen_Shot_2014-01-23_at_22.53.12.png
   [5]: images/Caricamento_dati/media_1390514131220.png
   [6]: images/Caricamento_dati/media_1355734683778.png
