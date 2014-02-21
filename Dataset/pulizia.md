@@ -2,6 +2,7 @@
 
 # Caricamento dati
 > Impari a creare un progetto in Google Refine e Open Refine
+
 Dataset usati:
 - [0300_disastri.json][1]
 - [0100_contractors_fp7_W.xls][2]
