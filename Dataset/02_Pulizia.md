@@ -11,7 +11,7 @@ I menu a tendina di ogni colonna presentano varie opzioni: di filtro, di modific
 ## Filtro di una colonna
 ![enter image description here][2]
 
-Fare un clic sulla colonna che si vuole editare e scegelire il percorso Facet>Text facet. Dopo una elaborazione dei dati proporzionale al numero delle righe e alla variabilità dei dati Refine mostra un blocco a sinistra con un filtro a faccette che indica ogni contenuto del campo e il numero di occorrenze.
+Fare un clic sulla colonna che si vuole editare e scegelire il percorso `Facet>Text facet`. Dopo una elaborazione dei dati proporzionale al numero delle righe e alla variabilità dei dati Refine mostra un blocco a sinistra con un filtro a faccette che indica ogni contenuto del campo e il numero di occorrenze.
 ## Trasformazioni comuni
 ![enter image description here][3]
 
@@ -19,16 +19,16 @@ In trasformazioni comuni si possono controllare il Ma/Mi delle parole e il forma
 ## Normalizzare le informazioni di una colonna
 ![enter image description here][4]
 
-Creata una faccetta di testo Refine indica le occorrenze di ciascun dato, cliccando su "Cluster" Refine propone un elenco di voci simili che è possibile riunificare sotto a un unico nome, nuovo o preesistente. Un altro percorso per ottenere cluster è: Modifica celle->Cluster e modifica
+Creata una faccetta di testo Refine indica le occorrenze di ciascun dato, cliccando su `Cluster` Refine propone un elenco di voci simili che è possibile riunificare sotto a un unico nome, nuovo o preesistente. Un altro percorso per ottenere cluster è: `Modifica celle->Cluster e modifica`
 ## Cluster
 ![enter image description here][5]
 
-In "Values in Cluster" si trovano i valori che potrebbero coincidere (calcolati in base a un determinato algoritmo), spuntando la casella "Merge?" si comanda che tutti i valori indicati nel cluster devono essere trasformati nel valori inserito nel campo "New Cell Value". Si può scegliere il nuovo valore cliccando su uno dei valori del cluster oppure riscrivendolo nella cella del nuovo valore. Altre informazioni sul clustering:
+In `Values in Cluster` si trovano i valori che potrebbero coincidere (calcolati in base a un determinato algoritmo), spuntando la casella `Merge?` si comanda che tutti i valori indicati nel cluster devono essere trasformati nel valori inserito nel campo `New Cell Value`. Si può scegliere il nuovo valore cliccando su uno dei valori del cluster oppure riscrivendolo nella cella del nuovo valore. Altre informazioni sul clustering:
 https://github.com/OpenRefine/OpenRefine/wiki/Clustering
 ## Navigare nel Cluster
 ![enter image description here][6]
 
-Passare col mouse nel limite inferiore della cella e cliccare sulla scritta "Naviga questo cluster", qui si possono operare delle modfiche al cluster stesso
+Passare col mouse nel limite inferiore della cella e cliccare sulla scritta `Naviga questo cluster`, qui si possono operare delle modfiche al cluster stesso
 ## Modificare un Cluster
 ![enter image description here][7]
 
@@ -36,12 +36,11 @@ E' possibile cambiare anche un singolo componenete del cluster.
 ## Filtrare e Clusterizzare
 ![enter image description here][8]
 
-Filtrare e Clusterizzare Zoom
-E' possibile anche filtrare con "Filtro testo" e quindi creare dei cluster che contengono le sole parole filtrate, in questo modo Refine risponde più velocemente ai comandi.
+E' possibile anche filtrare con `Filtro testo` e quindi creare dei cluster che contengono le sole parole filtrate, in questo modo Refine risponde più velocemente ai comandi.
 ## Sostituzione
 ![enter image description here][9]
 
-Il percorso Modifica celle->Trasforma permette di operare trasformazioni su tutta la colonna tramite uso di espressioni regolari in linguaggio JSON o GREL.
+Il percorso `Modifica celle->Trasforma` permette di operare trasformazioni su tutta la colonna tramite uso di espressioni regolari in linguaggio JSON o GREL.
 ## Sostituzione con il GREL
 ![enter image description here][10]
 
