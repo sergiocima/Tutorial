@@ -44,7 +44,7 @@ Dataset: 0100 contractors fp7 W.xls
 
   [1]: dataset_workshop/0300_disastri.json
   [2]: dataset_workshop/0100_contractors_fp7_W.xlsx
-  [3]: https://www.dropbox.com/s/28uqkw42n55zv3c/media_1355734512098.png
+  [3]: images/Caricamento_dati/media_1355734512098.png
   [4]: images/Caricamento_dati/Screen_Shot_2014-01-23_at_22.53.12.png
   [5]: images/Caricamento_dati/media_1390514131220.png
   [6]: images/Caricamento_dati/media_1355734683778.png
