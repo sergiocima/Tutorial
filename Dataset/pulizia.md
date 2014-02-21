@@ -35,9 +35,9 @@ Dataset: 0100 contractors fp7 W.xls
 
 
   [1]: https://www.dropbox.com/s/ovq6pqtn8hup00i/0300%20disastri.json
-  [2]: /images/media_1355734512098.png
+  [2]: images/media_1355734512098.png
   [3]: https://www.dropbox.com/s/wphjij1kttsuxp1/IMG_0217.JPG
-  [4]: /images/Caricamento_dati/Screen_Shot_2014-01-23_at_22.53.12.png
-  [5]: /images/Caricamento_dati/media_1390514131220.png
-  [6]: /images/Caricamento_dati/media_1355734683778.png
-  [7]: h/images/Caricamento_dati/media_1355734770880.png
+  [4]: images/Caricamento_dati/Screen_Shot_2014-01-23_at_22.53.12.png
+  [5]: images/Caricamento_dati/media_1390514131220.png
+  [6]: images/Caricamento_dati/media_1355734683778.png
+  [7]: images/Caricamento_dati/media_1355734770880.png
