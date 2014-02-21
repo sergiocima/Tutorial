@@ -1,6 +1,6 @@
 
 
-# Caricamentos dati
+# Caricamento dati
 > Impari a creare un progetto in Google Refine e Open Refine
 Dataset usati: [0300 disastri.json][1]
 
