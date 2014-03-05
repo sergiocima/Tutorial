@@ -1,0 +1,26 @@
+# Distribuzione
+
+Calcoliamo la distribuzione dell'età dei parlamentari della XVII legislatura al 4 marzo 2014. Un file csv con un'unica colonna con le età di tutti i deputati.
+
+```{r}
+eta <- read.csv("/Users/sergiomac/Documents/Documenti da applicazioni/Github/Dataset/età_camera_20140304.csv", header=TRUE)
+```
+
+e questa è l'età:
+
+```{r}
+eta[1:5,]
+```
+
+Prima vediamo i numeri 
+
+```{r}
+density(eta$eta)
+```
+
+plotto la distribuzione
+
+```{r fig.width=7, fig.height=6}
+plot(hist(eta$eta), main="Distribuzione dell'età dei deputati (marzo 2014)", xlab="Età", xlim=range(20:80), ylim=range(0:120), ylab="Frequenza", col="#fc6500")
+```
+
