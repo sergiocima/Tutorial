@@ -215,19 +215,29 @@ La distribuzione può essere rappresentata da una linea o da un istogramma. Sugl
 ## Bar plot orizzontali
 Leggi il file
 
-```{r}
-x <- read.csv("/Users/sergiomac/Documents/Documenti da applicazioni/Github/Dataset/governo_renzi_20140304.csv", sep=";")
+
+```r
+x <- read.csv("/Users/sergiomac/Documents/Documenti da applicazioni/Github/Dataset/governo_renzi_20140304.csv", 
+    sep = ";")
 ```
+
 
 Trasforma in matrice
 
-```{r}
+
+```r
 xmatrice <- as.matrix(x)
 ```
 
+
 Plotta la matrice
 
-```{r fig.width=7, fig.height=6}
-barplot(xmatrice, horiz=TRUE, main="Governo", names.arg=c("Altro", "Professioni intellettuali"), xlim=range(0:60))
+
+```r
+barplot(xmatrice, horiz = TRUE, main = "Governo", names.arg = c("Altro", "Professioni intellettuali"), 
+    xlim = range(0:60))
 ```
+
+![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3.png) 
+
 

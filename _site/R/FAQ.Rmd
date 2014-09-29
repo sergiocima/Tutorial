@@ -1,0 +1,82 @@
+FAQ
+========================================================
+
+# Filtrare escludendo righe senza dati
+
+```{r}
+birth<-read.csv("/Users/sergiomac/Documents/Formazione/Visualize this/code-n-data/ch06/data/birth-rate.csv")
+birth[1:5,]
+birth2008 <- birth$X2008[!is.na(birth$X2008)]
+```
+
+L'istruzione è: prendi la colonna del 2088 ed escludi le righe in cui la cella è NA (nessuan dato).
+
+Dato prima del filtro
+
+```{r}
+birth$X2008[1:20]
+```
+
+Dato dopo il filtro
+
+```{r}
+birth2008[1:20]
+```
+
+# Condizioni
+Condizioni
+
+    barplot(hotdogs$Dogs.eaten, names.arg = hotdogs$Year, col=fill_colors, border="NA", xlab="Year", ylab="Hot dogs and buns (HDB) eaten")
+
+Serve per colorare le barre di un grafico il cui dato è “United States”
+  
+  
+    fill_colors <- c()
+    for ( i in 1:length(hotdogs$New.record) ) { 
+      if (hotdogs$New.record[i] == 1) {
+      	fill_colors <- c(fill_colors, "#821122")
+    	} else { fill_colors <- c(fill_colors, "#cccccc")
+    	}
+    }
+
+Serve per colorare le barre di un grafico il cui dato è “1”
+
+# Import dati Banca mondiale
+
+library(WDI)
+
+Plotta da WB (http://www.r-chart.com/2010/06/plotting-world-bank-data-with-r.html, http://www.r-bloggers.com/world-bank-api-r-package-available/)
+
+> DF <- WDI(country=c("IT","FR","DE"), indicator="NY.GDP.MKTP.KD.ZG",
+> start=1990, end=2008) ggplot(DF, aes(year, NY.GDP.MKTP.KD.ZG,
+> color=country))+geom_line(stat="identity")+theme_bw()+xlab("Year")+labs(title="Annual GDP Growth rate (%)")+ylab("")
+
+Plotta il grafico del GPD per i paesi selezionati
+
+
+> WDI(country = "IT", indicator = "AG.LND.IRIG.AG.ZS",
+> +     start = 2005, end = 2011, extra = FALSE, cache = NULL)
+
+Questo comando scarica i dati di un paese per l'indicatore scelto. Gli indicatori si trovano qui http://data.worldbank.org/indicator
+
+# Plottare in plot.ly
+Plot.ly
+http://plot.ly/api/arduino/docs/bar-charts
+
+# Import Twitter
+http://cran.r-project.org/web/packages/streamR/streamR.pdf
+
+> library(streamR)
+> requestURL <- "https://api.twitter.com/oauth/request_token"
+> accessURL <- "http://api.twitter.com/oauth/access_token"
+> authURL <- "http://api.twitter.com/oauth/authorize"
+> consumerKey <- "ScetmhLpxf4Xz35QGrASg"
+> consumerSecret <- "abcd1234EFGH5678ijkl0987MNOP6543qrst21"
+> Cred <- OAuthFactory$new(consumerKey=consumerKey, consumerSecret=consumerSecret, requestURL=requestURL, accessURL=accessURL, authURL=authURL)
+
+# You can also embed plots, for example:
+
+```{r fig.width=7, fig.height=6}
+plot(cars)
+```
+

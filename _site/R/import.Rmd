@@ -1,0 +1,28 @@
+# Importa file
+## Da Github
+
+Il comando dà un errore
+
+```{r}
+read.csv("https://github.com/sergiocima/Dataset/blob/master/età_camera_20140304.csv")
+```
+
+R non gestisce indirizzi https. Bisogna caricare la libreria RCurl e bitops da cui dipende RCurl
+
+```{r}
+library(bitops)
+library(RCurl)
+```
+
+Quindi si imposta la variabile per richiamare il file
+
+```{r}
+x <- getURL("https://raw.github.com/sergiocima/Dataset/master/età_camera_20140304.csv", header=TRUE)
+y <- read.csv(text = x)
+```
+
+A questo i dati sono importati, si possono vedere
+
+```{r}
+y[1:5,]
+```

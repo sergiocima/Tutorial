@@ -1,0 +1,15 @@
+Comparazioni
+========================================================
+
+Conoscendo le età dei parlamentari possiamo raggruppare le età e calcoare la distribuzione dei parlamentari nei gruppi di età. Ma possiamo anche calcolare questa stessa distribuzione in ogni partito e confrontare in un sola visualizzazione la distribuzione per ogni partito.
+
+```{r}
+summary(cars)
+```
+
+Plot
+
+```{r fig.width=7, fig.height=6}
+plot(cars)
+```
+
